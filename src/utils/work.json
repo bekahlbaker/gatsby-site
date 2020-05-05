@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Insighter Front End",
+    "url": "https://source.unsplash.com/random",
+    "thumbnail": "/img/insighter.png",
+    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+  }
+]

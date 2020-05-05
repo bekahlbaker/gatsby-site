@@ -1,0 +1,43 @@
+.Header {
+  color: var(--black);
+}
+
+.Header h1 {
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 75px;
+  margin: 0;
+  margin-left: -3px;
+  margin-bottom: 32px;
+}
+
+.Header .arrow {
+  bottom: 5vh;
+  font-size: 4em;
+  position: absolute;
+  right: 5vw;
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  .Header h1 {
+    font-size: 6em;
+    line-height: 110px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .Header h1 {
+    font-size: 12em;
+    line-height: 200px;
+    margin: 0;
+    margin-bottom: 64px;
+    margin-left: -9px;
+  }
+
+  .Header .arrow {
+    bottom: 5vh;
+    font-size: 7em;
+    position: absolute;
+    right: 5vw;
+  }
+}

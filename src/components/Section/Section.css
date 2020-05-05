@@ -1,0 +1,22 @@
+.Section {
+  min-height: 85vh;
+  overflow: scroll;
+  padding-top: 15vh;
+}
+
+.Section.white {
+  background-color: white;
+}
+.Section.primary {
+  background-color: var(--primary);
+}
+.Section.secondary {
+  background-color: var(--secondary);
+}
+
+@media screen and (min-width: 992px) {
+  .Section {
+    min-height: 92vh;
+    padding-top: 8vh;
+  }
+}

@@ -1,0 +1,38 @@
+.Contact h2 {
+  color: var(--primary);
+}
+
+.Contact p {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.Contact .loader-container {
+  margin-bottom: 40px;
+}
+
+.Contact .loader {
+  font-size: 5em;
+}
+
+.Contact form {
+  padding-bottom: 5vh;
+}
+
+.Contact .submit-button {
+  background-color: var(--primary);
+  padding: 15px;
+  transition: 0.2s all ease;
+}
+
+.Contact .submit-button:disabled {
+  background: #aaa;
+  color: #888;
+  transition: 0.2s all;
+}
+
+.Contact .submit-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s opacity ease;
+}
