@@ -33,17 +33,20 @@ const StyledNavigation = styled.nav`
       color: var(--white);
       font-weight: bold;
       padding: 0 10px 10px 10px;
-      border-bottom: 5px solid var(--primary);
+      border-bottom: 5px solid var(--${props => props.borderColor});
       transition: border-bottom 0.5s ease;
     }
     a:hover {
-      border-bottom: 5px solid var(--white);
+      border-bottom: 5px solid var(--${props => props.hoverBorderColor});
     }
   }
 `
 
-const Nav = ({ siteTitle }) => (
-  <StyledNavigation>
+const Nav = ({ borderColor, hoverBorderColor }) => (
+  <StyledNavigation
+    borderColor={borderColor}
+    hoverBorderColor={hoverBorderColor}
+  >
     <nav>
       <ul>
         <li>

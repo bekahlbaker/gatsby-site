@@ -8,26 +8,27 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "./Nav"
+import styled from "styled-components"
 import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const StyledApp = styled.div`
+  /* Colors */
+  --primary: #ff9478;
+  --secondary: #765d69;
+  --black: #2e3131;
+  --red: #ce1c23;
+  --green: #47ad40;
+  --white: #eeeeee;
+  /* Fonts */
+  --sans: "Open Sans", sans-serif;
+  --serif: "Lobster Two", serif;
+  font-family: var(--sans);
+  font-size: 16px;
+  color: var(--black);
+`
 
-  return (
-    <div className="App">
-      <Nav siteTitle={data.site.siteMetadata.title} />
-      {children}
-    </div>
-  )
+const Layout = ({ children }) => {
+  return <StyledApp>{children}</StyledApp>
 }
 
 Layout.propTypes = {

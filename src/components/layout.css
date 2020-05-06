@@ -1,23 +1,7 @@
-:root {
-  /* Colors */
-  --primary: #ff9478;
-  --secondary: #765d69;
-  --black: #2e3131;
-  --red: #ce1c23;
-  --green: #47ad40;
-  --white: #eeeeee;
-  /* Fonts */
-  --sans: "Open Sans", sans-serif;
-  --serif: "Lobster Two", serif;
-}
-
 body {
-  font-family: var(--sans);
-  font-size: 16px;
   margin: 0px !important;
-  color: var(--black);
 }
-
+/* 
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -102,4 +86,4 @@ textarea {
     line-height: 32px;
     max-width: 60vw;
   }
-}
+} */

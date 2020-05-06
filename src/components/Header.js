@@ -4,7 +4,7 @@ import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import Container from "./Container"
-import "./layout.css"
+import Nav from "./Nav"
 
 const StyledH1 = styled.h1`
   font-size: 4em;
@@ -41,6 +41,7 @@ const StyledIcon = styled.div`
   font-size: 4em;
   position: absolute;
   right: 3vw;
+  color: var(--black);
 
   @media screen and (min-width: 992px) {
     bottom: 5vh;
@@ -57,6 +58,7 @@ const StyledCode = styled.code`
 
 const Header = () => (
   <Container>
+    <Nav borderColor="primary" hoverBorderColor="white" />
     <StyledH1>
       Bekah
       <br />
