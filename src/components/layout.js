@@ -7,14 +7,12 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import "./layout.css"
 
 const StyledApp = styled.div`
   /* Colors */
   --primary: #ff9478;
-  --secondary: #765d69;
   --black: #2e3131;
   --red: #ce1c23;
   --green: #47ad40;
@@ -25,6 +23,7 @@ const StyledApp = styled.div`
   font-family: var(--sans);
   font-size: 16px;
   color: var(--black);
+  margin: 0 !important;
 `
 
 const Layout = ({ children }) => {

@@ -7,9 +7,9 @@ import Container from "./Container"
 import Nav from "./Nav"
 
 const StyledH1 = styled.h1`
-  font-size: 4em;
+  font-size: 6em;
   font-weight: bold;
-  line-height: 75px;
+  line-height: 80px;
   margin: 0;
   margin-bottom: 32px;
   font-family: var(--serif);
@@ -28,20 +28,25 @@ const StyledH1 = styled.h1`
   }
 `
 
-const StyledLeadText = styled.p`
-  font-size: 2em;
-  line-height: 40px;
-  max-width: 75vw;
-  font-family: var(--sans);
-  margin-left: 4px;
+export const StyledLeadText = styled.p`
+  font-size: 1.25em;
+  line-height: 30px;
+  width: 100%;
+
+  @media screen and (min-width: 992px) {
+    font-size: 2em;
+    line-height: 40px;
+    font-family: var(--sans);
+    margin-left: 4px;
+    max-width: 75vw;
+  }
 `
 
 const StyledIcon = styled.div`
-  bottom: 5vh;
   font-size: 4em;
-  position: absolute;
-  right: 3vw;
   color: var(--black);
+  text-align: right;
+  margin-bottom: 20px;
 
   @media screen and (min-width: 992px) {
     bottom: 5vh;
@@ -52,8 +57,13 @@ const StyledIcon = styled.div`
 `
 
 const StyledCode = styled.code`
-  margin-left: 40px;
-  font-size: 1.25em;
+  margin-left: 0px;
+  font-size: 1em;
+
+  @media screen and (min-width: 992px) {
+    margin-left: 40px;
+    font-size: 1.25em;
+  }
 `
 
 const Header = () => (

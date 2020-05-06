@@ -13,15 +13,17 @@ const StyledNavigation = styled.nav`
     border-radius: 5px 0 0 5px;
     padding: 10px;
     width: 100%;
-    right: 0;
+    right: 10px;
     position: absolute;
     @media (min-width: 1024px) {
-      width: 40%;
+      width: 50%;
+      right: 0;
     }
     ul {
       display: flex;
       justify-content: space-evenly;
       margin: 0;
+      padding-left: 0px;
     }
     ul > li {
       list-style: none;

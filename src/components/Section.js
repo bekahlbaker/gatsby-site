@@ -20,7 +20,7 @@ const Section = ({ type, children }) => (
 
 Section.propTypes = {
   children: PropTypes.element.isRequired,
-  type: PropTypes.oneOf(["default", "primary", "secondary"]).isRequired,
+  type: PropTypes.oneOf(["default", "primary"]).isRequired,
 }
 
 export default Section
