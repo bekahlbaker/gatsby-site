@@ -71,7 +71,6 @@ const WorkCard = ({ project }) => {
       className={`WorkCard ${hoverActive ? "active" : ""}`}
       onClick={setHoverState}
       onKeyPress={setHoverState}
-      role="presentation"
       thumbnail={thumbnail}
     >
       <StyledWorkCardContent>

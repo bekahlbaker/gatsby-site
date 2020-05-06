@@ -1,32 +1,74 @@
 [
   {
-    "name": "Insighter Front End",
-    "url": "/",
-    "thumbnail": "https://source.unsplash.com/random",
-    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+    "name": "Blog Posts",
+    "url": "https://medium.com/@bekahlbaker",
+    "thumbnail": "src/images/accessibility.png",
+    "description": "Blog posts written for company Medium blog"
   },
   {
-    "name": "Insighter Front End",
+    "name": "Mint Dentistry",
     "url": "/",
     "thumbnail": "https://source.unsplash.com/random",
-    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+    "description": "React/Rails app for buying insurance - Tech Lead"
   },
   {
-    "name": "Insighter Front End",
+    "name": "Tab Hop (Web)",
     "url": "/",
     "thumbnail": "https://source.unsplash.com/random",
-    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+    "description": "A rails web site for managing subscriptions to the tab hop service - Tech Lead"
   },
   {
-    "name": "Insighter Front End",
+    "name": "Tab Hop (Mobile)",
     "url": "/",
     "thumbnail": "https://source.unsplash.com/random",
-    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+    "description": "Drink subscription app built with Expo - Tech Lead"
   },
   {
-    "name": "Insighter Front End",
+    "name": "The Source",
     "url": "/",
     "thumbnail": "https://source.unsplash.com/random",
-    "description": "Insighter is Ansira's flagship data-visualization tool. It allows clients to view dashboards featuring charts, graphs and tables of their data, making it more easily digestable for the user. Built using Angular 2 with TypeScript"
+    "description": "Pregnancy Risk Calculator app built with Expo - Tech Lead"
+  },
+  {
+    "name": "Vouch",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Dating app built with Swift - Tech Lead"
+  },
+  {
+    "name": "Church Loop (Mobile)",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Social app for Churches built with React Native - Tech Lead"
+  },
+  {
+    "name": "Church Loop (Web)",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Social app for church built with React"
+  },
+  {
+    "name": "My Bridge Connect",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Social app for a radio station in Colorado - Tech Lead"
+  },
+  {
+    "name": "RRT",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Software for drivers in company built with Swift - Tech Lead"
+  },
+  {
+    "name": "5110",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Software for horse riding non-profit company built with React Native - Tech Lead"
+  },
+  {
+    "name": "Predikt",
+    "url": "/",
+    "thumbnail": "https://source.unsplash.com/random",
+    "description": "Live sports betting game built with Expo"
   }
 ]

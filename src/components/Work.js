@@ -40,9 +40,8 @@ const Work = () => (
     <Nav borderColor="default" hoverBorderColor="primary" />
     <StyledH2>My Work</StyledH2>
     <StyledLeadText>
-      Here are some projects I&apos;d like to show off. They are a mix of front
-      end applications and back end APIs. I&apos;ve included links to either the
-      live product, promotional pages or github repos. I hope you enjoy!
+      Here are some projects I&apos;d like to show off. They are a mix of mobile
+      and web apps. Enjoy!
     </StyledLeadText>
     <StyledWorkCardGrid>{renderWorkCards()}</StyledWorkCardGrid>
   </Container>
