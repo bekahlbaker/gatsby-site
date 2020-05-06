@@ -79,16 +79,14 @@ const Header = () => (
       webDeveloper;
     </StyledCode>
     <StyledLeadText>
-      I&apos;m a front end software developer, currently living right outside
-      Dallas, TX. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Aenean porttitor, orci in luctus molestie, tortor libero iaculis dui, sed
-      pharetra eros sem nec ipsum.
+      I&apos;m a front end developer, currently living right outside Dallas, TX.
+      I like creating mobile and single page apps using (usually) React and
+      React-Native.
     </StyledLeadText>
     <StyledLeadText>
-      Morbi non pellentesque lorem. Praesent luctus nisi sit amet tellus mollis,
-      eget varius ipsum feugiat. Curabitur ante eros, bibendum nec nunc nec,
-      condimentum tempus nibh. In commodo, augue sodales gravida congue, ante
-      felis semper diam, at dictum leo neque ac massa.
+      I am experienced with JavaScript, React/React Native/Redux, Expo,
+      Swift/Objective C, Apollo/Graphql, Node.js, Next, Gatsby, Netlify,
+      HTML/CSS, npm/yarn, git and more.
     </StyledLeadText>
     <Link to="/work">
       <StyledIcon>

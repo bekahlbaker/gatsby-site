@@ -5,6 +5,8 @@ import { faAt } from "@fortawesome/free-solid-svg-icons"
 import Container from "../Container"
 import Nav from "../Nav"
 import { StyledLeadText } from "../Header"
+import github from "../../images/github.png"
+import linkedin from "../../images/linkedin.png"
 
 const StyledLinksGrid = styled.div`
   display: grid;
@@ -14,11 +16,11 @@ const StyledLinksGrid = styled.div`
   padding-top: 5vh;
 
   @media screen and (min-width: 500px) and (max-width: 991px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   @media screen and (min-width: 992px) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 `
 
@@ -32,8 +34,13 @@ const StyledH2 = styled.h2`
 `
 
 const StyledIcon = styled.div`
-  font-size: 4em;
+  font-size: 120px;
   color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 120px;
+  margin-bottom: 30px;
 
   @media screen and (min-width: 992px) {
     font-size: 7em;
@@ -46,9 +53,33 @@ const ContactLinks = () => (
     <StyledH2>Contact Me</StyledH2>
     <StyledLeadText>I'd love to hear from you!</StyledLeadText>
     <StyledLinksGrid>
-      <StyledIcon>
-        <FontAwesomeIcon icon={faAt} />
-      </StyledIcon>
+      <a
+        href={"mailto:bekahlbaker@gmail.com"}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <StyledIcon>
+          <FontAwesomeIcon icon={faAt} />
+        </StyledIcon>
+      </a>
+      <a
+        href={"https://github.com/bekahlbaker"}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <StyledIcon>
+          <img src={github} height={120} />
+        </StyledIcon>
+      </a>
+      <a
+        href={"https://www.linkedin.com/in/rebekah-baker/"}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <StyledIcon>
+          <img src={linkedin} height={120} />
+        </StyledIcon>
+      </a>
     </StyledLinksGrid>
   </Container>
 )
