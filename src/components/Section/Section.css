@@ -5,7 +5,7 @@
 }
 
 .Section.white {
-  background-color: white;
+  background-color: var(--white);
 }
 .Section.primary {
   background-color: var(--primary);

@@ -43,7 +43,7 @@ class WorkCard extends Component {
         }}
       >
         <div className="content">
-          <a href={url} target="_blank">
+          <a href={url} target="_blank" rel="noopener noreferrer">
             <h3>{name}</h3>
           </a>
           <p>{description}</p>

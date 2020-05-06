@@ -2,15 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-const StyledNavigation = styled.header`
-  padding-top: 15px;
-  padding-bottom: 15px;
+const StyledNavigation = styled.nav`
+  padding-top: 24px;
+  padding-bottom: 24px;
   width: 100%;
   position: fixed;
   top: 0;
   nav {
-    background: #333;
-    padding: 4px;
+    background: var(--black);
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
     width: 100%;
     right: 0;
     position: absolute;
@@ -28,9 +29,15 @@ const StyledNavigation = styled.header`
     }
     a {
       text-decoration: none;
-      font-family: sans-serif;
-      color: white;
+      font-family: var(--sans);
+      color: var(--white);
       font-weight: bold;
+      padding: 0 10px 10px 10px;
+      border-bottom: 5px solid var(--primary);
+      transition: border-bottom 0.5s ease;
+    }
+    a:hover {
+      border-bottom: 5px solid var(--white);
     }
   }
 `

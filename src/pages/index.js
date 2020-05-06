@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Section from "../components/Section/Section"
-import Header from "../components/Header/Header"
+import Header from "../components/Header"
 
 const IndexPage = () => (
   <Layout>
