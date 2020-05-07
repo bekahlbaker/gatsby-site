@@ -6,6 +6,12 @@
     "description": "Blog posts written for company Medium blog"
   },
   {
+    "name": "Minerva",
+    "url": "https://medium.com/@bekahlbaker",
+    "thumbnail": "src/images/accessibility.png",
+    "description": "Accessible component library created with React and Typescript"
+  },
+  {
     "name": "Mint Dentistry",
     "url": "/",
     "thumbnail": "https://source.unsplash.com/random",
