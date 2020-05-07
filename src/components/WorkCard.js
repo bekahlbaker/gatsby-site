@@ -52,6 +52,7 @@ const WorkCardDescription = styled.p`
 
 const WorkCard = ({ project }) => {
   const { name, url, thumbnail, description } = project
+  console.log(thumbnail)
   const [hoverActive, setHoverActive] = React.useState(false)
 
   const setHoverState = () => {
