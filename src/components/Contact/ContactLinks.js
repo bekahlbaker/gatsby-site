@@ -68,7 +68,7 @@ const ContactLinks = () => (
         rel="noopener noreferrer"
       >
         <StyledIcon>
-          <img src={github} height={120} />
+          <img src={github} height={120} alt="github logo" />
         </StyledIcon>
       </a>
       <a
@@ -77,7 +77,7 @@ const ContactLinks = () => (
         rel="noopener noreferrer"
       >
         <StyledIcon>
-          <img src={linkedin} height={120} />
+          <img src={linkedin} height={120} alt="linked in logo" />
         </StyledIcon>
       </a>
     </StyledLinksGrid>

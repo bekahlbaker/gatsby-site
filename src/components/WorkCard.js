@@ -73,6 +73,7 @@ const WorkCard = ({ project }) => {
       onClick={setHoverState}
       onKeyPress={setHoverState}
       thumbnail={thumbnail}
+      alt=""
     >
       <StyledWorkCardContent>
         <WorkCardLink href={url} target="_blank" rel="noopener noreferrer">

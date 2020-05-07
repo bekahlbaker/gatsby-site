@@ -88,7 +88,7 @@ const Header = () => (
       Swift/Objective C, Apollo/Graphql, Node.js, Next, Gatsby, Netlify,
       HTML/CSS, npm/yarn, git and more.
     </StyledLeadText>
-    <Link to="/work">
+    <Link to="/work" aria-label="Link to work">
       <StyledIcon>
         <FontAwesomeIcon icon={faArrowCircleRight} />
       </StyledIcon>
