@@ -57,6 +57,7 @@ const ContactLinks = () => (
         href={"mailto:bekahlbaker@gmail.com"}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Send email to bekahlbaker@gmail.com"
       >
         <StyledIcon>
           <FontAwesomeIcon icon={faAt} />
