@@ -2,79 +2,79 @@
   {
     "name": "Blog",
     "url": "https://medium.com/@bekahlbaker",
-    "thumbnail": "images/accessibility.png",
+    "thumbnail": "public/images/accessibility.png",
     "description": "Blog posts written for company Medium blog"
   },
   {
     "name": "Minerva (Web)",
     "url": "https://minerva-ui.netlify.app/",
-    "thumbnail": "images/minerva.png",
+    "thumbnail": "public/images/minerva.png",
     "description": "Accessible component library created with React and Typescript"
   },
   {
     "name": "Mint Dentistry (Web)",
     "url": "https://mint.cratebind.com/quotes/new",
-    "thumbnail": "/images/mint.png",
+    "thumbnail": "/public/images/mint.png",
     "description": "React/Rails app for buying dental & vision insurance - Tech Lead"
   },
   {
     "name": "Tab Hop (Web)",
     "url": "https://account.tabhopapp.com/",
-    "thumbnail": "/images/tabhopweb.png",
+    "thumbnail": "/public/images/tabhopweb.png",
     "description": "A rails web site for managing subscriptions to the tab hop service - Tech Lead"
   },
   {
     "name": "Tab Hop (Mobile)",
     "url": "https://apps.apple.com/us/app/tab-hop/id1475148463?ls=1",
-    "thumbnail": "/images/tabhopmobile.png",
+    "thumbnail": "/public/images/tabhopmobile.png",
     "description": "Drink subscription app built with Expo - Tech Lead"
   },
   {
     "name": "Vouch (Mobile)",
     "url": "https://apps.apple.com/us/app/vouch-matchmaking-dating/id1188573472?ls=1",
-    "thumbnail": "/images/vouch.png",
+    "thumbnail": "/public/images/vouch.png",
     "description": "Dating app built with Swift - Tech Lead"
   },
   {
     "name": "Church Loop (Mobile)",
     "url": "https://apps.apple.com/us/app/church-loop-stay-connected/id1453052448?ls=1",
-    "thumbnail": "/images/churchloopmobile.png",
+    "thumbnail": "/public/images/churchloopmobile.png",
     "description": "Social app for Churches built with React Native - Tech Lead"
   },
   {
     "name": "Church Loop (Web)",
     "url": "https://mychurchloop.org/login",
-    "thumbnail": "/images/churchloopweb.png",
+    "thumbnail": "/public/images/churchloopweb.png",
     "description": "Social app for church built with React"
   },
   {
     "name": "5110",
     "url": "https://apps.apple.com/us/app/5110/id1434452452?ls=1",
-    "thumbnail": "/images/5110.png",
+    "thumbnail": "/public/images/5110.png",
     "description": "Software for horse riding non-profit company built with React Native - Tech Lead"
   },
   {
     "name": "RRT",
     "url": null,
-    "thumbnail": "/images/rrt.png",
+    "thumbnail": "/public/images/rrt.png",
     "description": "(Private mobile app) Software for drivers in company built with Swift - Tech Lead"
   },
   {
     "name": "My Bridge Connect",
     "url": null,
-    "thumbnail": "/images/mybridge.png",
+    "thumbnail": "/public/images/mybridge.png",
     "description": "(A work in progress) Social app for a radio station in Colorado - Tech Lead"
   },
   {
     "name": "The Source (Mobile)",
     "url": null,
-    "thumbnail": "/images/thesource.png",
+    "thumbnail": "/public/images/thesource.png",
     "description": "(A work in progress) Women's health app built with Expo - Tech Lead"
   },
   {
     "name": "Predikt",
     "url": null,
-    "thumbnail": "/images/predikt.png",
+    "thumbnail": "/public/images/predikt.png",
     "description": "(A work in progress) Live sports game built with Expo"
   }
 ]
