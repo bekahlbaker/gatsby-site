@@ -14,67 +14,67 @@
   {
     "name": "Mint Dentistry (Web)",
     "url": "https://mint.cratebind.com/quotes/new",
-    "thumbnail": "/mint",
+    "thumbnail": "mint",
     "description": "React/Rails app for buying dental & vision insurance - Tech Lead"
   },
   {
     "name": "Tab Hop (Web)",
     "url": "https://account.tabhopapp.com/",
-    "thumbnail": "/tabhopweb",
+    "thumbnail": "tabhopweb",
     "description": "A rails web site for managing subscriptions to the tab hop service - Tech Lead"
   },
   {
     "name": "Tab Hop (Mobile)",
     "url": "https://apps.apple.com/us/app/tab-hop/id1475148463?ls=1",
-    "thumbnail": "/tabhopmobile",
+    "thumbnail": "tabhopmobile",
     "description": "Drink subscription app built with Expo - Tech Lead"
   },
   {
     "name": "Vouch (Mobile)",
     "url": "https://apps.apple.com/us/app/vouch-matchmaking-dating/id1188573472?ls=1",
-    "thumbnail": "/vouch",
+    "thumbnail": "vouch",
     "description": "Dating app built with Swift - Tech Lead"
   },
   {
     "name": "Church Loop (Mobile)",
     "url": "https://apps.apple.com/us/app/church-loop-stay-connected/id1453052448?ls=1",
-    "thumbnail": "/churchloopmobile",
+    "thumbnail": "churchloopmobile",
     "description": "Social app for Churches built with React Native - Tech Lead"
   },
   {
     "name": "Church Loop (Web)",
     "url": "https://mychurchloop.org/login",
-    "thumbnail": "/churchloopweb",
+    "thumbnail": "churchloopweb",
     "description": "Social app for church built with React"
   },
   {
     "name": "5110",
     "url": "https://apps.apple.com/us/app/5110/id1434452452?ls=1",
-    "thumbnail": "/5110",
+    "thumbnail": "fiftyoneten",
     "description": "Software for horse riding non-profit company built with React Native - Tech Lead"
   },
   {
     "name": "RRT",
     "url": null,
-    "thumbnail": "/rrt",
+    "thumbnail": "redaway",
     "description": "(Private mobile app) Software for drivers in company built with Swift - Tech Lead"
   },
   {
     "name": "My Bridge Connect",
     "url": null,
-    "thumbnail": "/mybridge",
+    "thumbnail": "mybridge",
     "description": "(A work in progress) Social app for a radio station in Colorado - Tech Lead"
   },
   {
     "name": "The Source (Mobile)",
     "url": null,
-    "thumbnail": "/thesource",
+    "thumbnail": "thesource",
     "description": "(A work in progress) Women's health app built with Expo - Tech Lead"
   },
   {
     "name": "Predikt",
     "url": null,
-    "thumbnail": "/predikt",
+    "thumbnail": "predikt",
     "description": "(A work in progress) Live sports game built with Expo"
   }
 ]
