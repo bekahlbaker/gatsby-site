@@ -3,7 +3,7 @@ import styled from "styled-components"
 import PropTypes from "prop-types"
 
 const StyledWorkCard = styled.div`
-  background-image: url(${props => props.thumbnail});
+  background-image: url('images/${props => props.thumbnail}.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
