@@ -1,9 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
+import accessibility from "../images/accessibility.png"
 
 const StyledWorkCard = styled.div`
-  background-image: url('images/${props => props.thumbnail}.png');
+  background-image: url(${accessibility});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
